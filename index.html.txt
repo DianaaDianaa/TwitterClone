@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Twitter</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+              crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--sidebar starts-->
+        <div class="sidebar">
+            <i class="fab fa-twitter"></i>
+            <div class="sidebarOption">
+                <span class="material-icons">tag</span>
+                <h2>Explorează</h2>
+            </div>
+            <div class="sidebarOption">
+                <span class="material-icons">settings</span>
+                <h2>Setări</h2>
+            </div>
+        </div>
+        <!--sidebar ends-->
+
+        <!--feed starts-->
+        <div class="feed">
+            <div class="feed__header">
+                <div class="feed__header1">
+                    <span class="material-icons">arrow_back</span>
+                </div>
+                <div class="feed__header2">
+                    <div class="feed__header3">
+                        <h2>Twitter</h2>
+                        <span class="material-icons">verified</span>
+                    </div>
+                    <h6>15 K de Tweeturi</h6>
+                </div>
+            </div> 
+            <div class="feed__profile">
+                <img id="banner" src="banner.jpg" alt="banner" width="603px"> 
+                <img id="profilePic" src="profilePic.jpg" alt="profilePic" width="140px" height="140px"> 
+                <button id="followButton">Urmărește</button>
+                <div class="feed__profile2">
+                    <h2>Twitter</h2>
+                    <span class="material-icons">verified</span>
+                </div>
+                <h5 id="twitter">@Twitter</h5>
+                <h5 id="whatshappening">What's happening?!</h5>
+                <div class="feed__profile3">
+                    <div class="div1">
+                        <span class="material-icons">location_on</span>
+                        <h5>everywhere</h5>
+                    </div>
+                    <div class="div2">
+                        <span class="material-icons">link</span>
+                        <h5 id="abouttwitter">about.twitter.com</h5>
+                    </div>
+                    <div class="div3">
+                        <span class="material-icons">celebration</span>
+                        <h5>S-a născut în data de 21 martie</h5>
+                    </div>
+                </div>
+                <div class="feed__profile4">
+                    <span class="material-icons">calendar_month</span>
+                    <h5>S-a alăturat în februarie 2007</h5>
+                </div>
+                <div class="feed__profile5">
+                    <div class="feed__profile5_1">
+                        <h5 id="feed__profile5_1_h1">5</h5>
+                        <h5 id="feed__profile5_1_h2">Urmăriți</h5>
+                    </div>
+                    <div class="feed__profile5_2">
+                        <h5 id="feed__profile5_2_h1">65,6 mil.</h5>
+                        <h5 id="feed__profile5_2_h2">Urmăritori</h5>
+                    </div>
+                </div>
+                <div class="bar">
+                    <ul>
+                        <li id="Tweeturi">
+                          <span>Tweeturi</span>
+                        </li>
+                        <li>
+                           <span>Afiliați</span>
+                        </li>
+                        <li>
+                            <span>Răspunsuri</span>
+                        </li>
+                        <li>
+                            <span>Conținut media</span>
+                        </li>
+                        <li>
+                            <span>Aprecieri</span>
+                        </li>
+                      </ul>
+                </div>
+                <div class="twitterPost">
+                    <img id="profilePic2" src="profilePic.jpg" alt="profilePic" width="50px" height="50px">
+                    <div class="twitterPostdiv">
+                        <div class="twitterPostdiv1">
+                            <h5 id="twt">Twitter</h5>
+                           <span class="material-icons">verified</span>
+                           <h5 id="h">@Twitter · 8 feb.</h5>
+                           <span class="material-icons" id="more">more_horiz</span>
+                        </div>
+                       <div class="twitterPostdiv2">
+                            <p id="p">more words more words more words more words more words more words <br>
+                                more words more words more words more words more words more words</p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--feed ends-->
+
+        <!--posts-->
+        <div class="posts">
+            <div class="searchBar">
+                <span class="material-icons" id="search">search</span>
+                <h5 id="cauta">Caută pe Twitter</h5>
+            </div> 
+            <div class="twitterBox">
+                <h2>Nou pe Twitter?</h2>
+                <h5>Înregistrează-te acum pentru a-ți crea propria<br> cronologie personalizată!</h5>
+                <div class="buttons">
+                    <button><img id="google" src="google.png" alt="googleLogo" width="20px" height="20px">Înscrie-te cu Google</button>
+                    <button><img id="apple" src="apple.png" alt="appleLogo" width="20px" height="20px">Înregistrează-te cu Apple</button>
+                    <button>Creează un cont</button>
+                </div>
+                <h5>Prin înregistrare, ești de acord cu Condițiile de utilizare<br>și cu Politica de confidențialitate, inclusiv cu Utilizarea<br> modulelor cookie.</h5>
+            </div>
+            <div class="twitterBox2">
+                <h3>S-ar putea să-ți placă</h3>
+                <div class="items">
+                    <ul>
+                        <li>
+                          <img id="twitterImg" src="profilePic.jpg" alt="profilePic" width="40px" height="40px"> 
+                          <div class="Tweeturi2">
+                            <div class="Tweeturi3">
+                                <h5>TweeterSup...</h5>
+                                <span class="material-icons">verified</span>
+                                <img id="twitterImg2" src="profilePic.jpg" alt="profilePic" width="15px" height="15px"> 
+                            </div>
+                            <h5 id="last">@TwitterSupport</h5>
+                          </div>
+                          <button>Urmărește</button>
+                        </li>
+                        <li>
+                            <img id="flipboardImg" src="flipboard.png" alt="profilePic" width="40px" height="40px"> 
+                            <div class="Tweeturi2">
+                              <div class="Tweeturi3">
+                                  <h5>Flipboard</h5>
+                                  <span class="material-icons">verified</span> 
+                              </div>
+                              <h5 id="last">@Flipboard</h5>
+                            </div>
+                            <button>Urmărește</button>
+                        </li>
+                        <li>
+                            <img id="androidImg" src="android.png" alt="profilePic" width="40px" height="40px"> 
+                            <div class="Tweeturi2">
+                              <div class="Tweeturi3">
+                                  <h5>Android</h5>
+                                  <span class="material-icons">verified</span> 
+                              </div>
+                              <h5 id="last">@Android</h5>
+                            </div>
+                            <button>Urmărește</button>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+        <!--posts-->
+    </body>
+</html>
